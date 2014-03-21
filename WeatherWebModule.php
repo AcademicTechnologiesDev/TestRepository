@@ -4,7 +4,7 @@ class WeatherWebModule extends WebModule
     public $id='weather';
     protected $imageurl = "";
     protected function initializeForPage() {
-        //$this->assign('message', 'Hello World!');
+        //$this->assign('message', 'Weather!');
         $args = array(  'BASE_URL' => 'http://xml.weather.yahoo.com/forecastrss/46556_f.xml',
                         'CACHE_LIFETIME' => 0,
                     );
